@@ -7,9 +7,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql
     environment:
-      POSTGRES_PASSWORD: postgres #Replace me
-      POSTGRES_USER: postgres #Replace me
-      POSTGRES_DB: postgres #Replace me
+      POSTGRES_PASSWORD: <your_password> #Replace me
+      POSTGRES_USER: <your_username> #Replace me
+      POSTGRES_DB: <default_db> #Replace me
     ports:
       - 5432:5432 # do not expose on servers
 
