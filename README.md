@@ -1,2 +1,28 @@
-# docker-containers
-A list of docker containers that may be used for different purposes. Note this is a accumulation of docker-compose files for my own personal non hostet use and may not hold up to security practices on a server
+# Docker Containers
+
+A collection of ready-to-use Docker configurations for various services and applications. This repository provides a streamlined way to deploy infrastructure and tools using `docker-compose`.
+
+## The Collection
+
+| Container | Description |
+| ----------- | ----------- |
+| Basic Webserver 🌐 | A basic webserver for hosting static content. |
+| Nextcloud ☁️ | A Nextcloud docker-aio adaptation for personal use. |
+| Postgres 🐘 | DB-System. |
+
+## Getting Started
+
+Each directory in this repository includes a `docker-compose.yml` file, pre-configured for rapid deployment.
+
+### Deploying a Container
+Navigate to the directory of the service you wish to start:
+
+```bash
+cd nextcloud
+```
+
+Adsjust all passwords and username
+
+```bash
+docker-compose up -d
+```
