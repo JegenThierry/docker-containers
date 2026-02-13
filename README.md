@@ -1,6 +1,6 @@
 # Docker Containers
 
-A collection of ready-to-use Docker configurations for various services and applications. This repository provides a streamlined way to deploy infrastructure and tools using `docker-compose`.
+A collection of ready-to-use Docker configurations for various services and applications. This repository has some personal containers and tools that can be run using `docker-compose`.
 
 ## The Collection
 
