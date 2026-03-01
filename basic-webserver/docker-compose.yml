@@ -1,0 +1,11 @@
+services:
+  flower-site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4321:80"
+      - "4322:443"
+    volumes:
+      - ./:/usr/share/nginx/html
+    restart: unless-stopped
