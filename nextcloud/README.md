@@ -1,0 +1,1 @@
+**NOTE: In most cases I can personally recommend using nextcloud aio instead**
