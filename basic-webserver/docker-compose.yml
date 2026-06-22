@@ -1,8 +1,6 @@
 services:
   flower-site:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: nginx:alpine
     ports:
       - "4321:80"
       - "4322:443"
